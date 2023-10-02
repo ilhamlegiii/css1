@@ -1,0 +1,26 @@
+.tabel {
+    font-family: sans-serif; 
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabel th {
+    background-color: blue; 
+    color: white; 
+}
+
+.tabel th, .tabel td {
+    border: 1px solid lightgray;
+    padding: 8px;
+    text-align: left;
+}
+
+.tabel tbody tr:nth-child(odd) {
+    background-color:lightgray;
+}
+.tabel tbody tr:nth-child(even) {
+    background-color:white;
+}
+.tabel tbody tr:hover {
+    background-color: rgb(112, 112, 112); 
+}
